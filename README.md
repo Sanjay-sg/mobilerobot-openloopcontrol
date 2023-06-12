@@ -8,7 +8,7 @@ To develop a python control code to move the mobilerobot along the predefined pa
 2. Python 3.7
 
 ## Procedure
-```
+
 ## Step1:
 Initiate the MobileRobot.
 ## Step2:
@@ -17,7 +17,7 @@ Connect your PC with the MobileRobot.
 Program the movements of the robot using python code
 ## Step4:
 Execute the python program.
-```
+
 ## Program
 ```
 from robomaster import robot
