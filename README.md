@@ -10,37 +10,16 @@ To develop a python control code to move the mobilerobot along the predefined pa
 ## Procedure
 
 Step1:
-
-<br/>
-
+Initiate the MobileRobot.
 Step2:
-
-<br/>
-
+Connect your PC with the MobileRobot.
 Step3:
-
-<br/>
-
+Program the movements of the robot using python code
 Step4:
-
-<br/>
-
-Step5:
-
-<br/>
+Execute the python program.
 
 ## Program
-```python
-from robomaster import robot
-import time
-
-if __name__ == '__main__':
-    ep_robot = robot.Robot()
-    ep_robot.initialize(conn_type="ap")
-
-    ep_chassis = ep_robot.chassis
-
-    ## Write your code here
+```
 from robomaster import robot
 import time
 from robomaster import camera
@@ -123,14 +102,8 @@ if __name__ == '__main__':
 ## MobileRobot Movement Image:
 
 ![robo](./img/robomaster.png)
+![image](https://github.com/Sanjay-sg/mobilerobot-openloopcontrol/assets/119559022/1e474312-6f7e-4670-89f5-48b2c1d7b455)
 
-Insert image here
-
-
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## MobileRobot Movement Video:
 
@@ -138,10 +111,7 @@ Upload your video in Youtube and paste your video-id here
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
-<br/>
-<br/>
-<br/>
-<br/>
+https://www.youtube.com/shorts/67t4sYK1G1s
 
 ## Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
